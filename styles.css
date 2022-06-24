@@ -1,0 +1,381 @@
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.navbar {
+  padding: 15px 20px;
+  box-shadow: 0px 10px 20px rgba(57,56,61,0.205);
+}
+
+ .navbar-brand{
+     color: #000;
+ }
+
+ .navbar-brand:hover {
+   color: #000;
+ }
+
+ .top {
+   color: #00a2c5;
+ }
+
+ .heading {
+     padding: 0 10px;
+     font-size: 20px;
+ }
+
+ .heading-text {
+  padding: 0 10px;
+  font-size: 20px;
+ }
+
+ .heading:hover {
+   color: #000;
+ }
+
+ .dropbtn {
+    color: #000;
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 80%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #00a2c5;
+  }
+  
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+    position: relative;
+  }
+  
+  
+  .dropdown:hover .dropbtn {
+    background-color: #00a2c5;
+  }
+
+  /* intro area */
+   
+  .content {
+    margin: 5rem 11rem;
+  }
+
+  .intro {
+    font-size: 50px;
+    font-weight: 600;
+    padding:  20px 0;
+  }
+
+  input {
+    margin: 8px;
+    padding: 15px;
+    border: 1px solid rgb(230, 226, 226);
+  }
+
+  textarea {
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid rgb(230, 226, 226);
+  }
+
+  hr {
+    color: #E5E5E5;
+  }
+
+  .full-width {
+    width: 67%;
+  }
+
+  .half-width { 
+    width: 277px;
+  }
+
+  /* End intro area */
+
+  /* intrest area */
+  .interest {
+    margin: 3rem 12rem;
+  }
+
+  .interest-heading, .budget-heading, .service-heading {
+    font-size: 40px;
+  }
+
+  .interest-image {
+    padding: 20px 0;
+  }
+  
+   .interest-image img:hover {
+    border: 5px solid #00a2c5;
+    border-radius: 0;
+  } 
+
+  .interest-image img {
+    border: dotted 1px #777;
+    border-radius: 5px;
+    padding: 20px;
+  }
+
+  /* End intrest area */
+
+  /* services/budget area */
+
+  .services, .budget {
+     margin: 3rem 12rem; 
+    display: block;
+    /* text-align: left; */
+  }
+
+  .budget-info {
+    display: flex;
+    padding: 3rem 0 ;
+  }  
+
+  .budget-info button {
+    color: #fff;
+    background-color: #00a2c5;
+    border: 2px solid #00a2c5;
+    width: 25%;
+    border-radius: 3px;
+  }
+
+  .budget-info p {
+    display: flex;
+    color: #000;
+    padding: 0 2rem;
+    margin-top: 5px;
+  }
+
+  .budget-info h6 {
+    color: #00a2c5;
+    font-size: 30px;
+  }
+
+  /* End services/budget area */
+
+  /* location area */
+
+  .location {
+    background-color: #f6f6f6;
+  }
+
+  .location  p  {
+    color: #000;
+     display: block;
+     font-weight: 400;
+  }
+
+  .location-area {
+    margin: 0rem 10rem;
+  }
+
+  .location-image {
+    padding: 20px 0;
+  }
+
+  .location-image img {
+    border-radius: 5px;
+    padding: 40px;
+  }
+
+  .location-text {
+    margin: 0 7rem;
+  }
+  /* End location area */
+
+  /* footer area */
+
+  .footer {
+    background-color: #000;
+    padding: 3rem 0;
+    font-size: 15px;
+  }
+
+ .footer-area {
+   margin: 0rem 12rem;
+ }
+
+ .footer-heading {
+   color: #fff;
+   padding-bottom: 5px;
+   border-bottom: 2px solid #00a2c5;
+ }
+
+  .special{
+  border-bottom: 2px solid #fff;
+ }
+
+ .contact {
+   border-bottom: 2px solid #fff;
+   padding-bottom: 20px;
+ }
+
+ .sub-location {
+   margin-top: 4rem;
+ }
+
+ .policy a {
+  color: #f5f5f5;
+  text-decoration: none;
+  font-weight: lighter;
+ }
+
+ .footer h6, p, a {
+  color: #f5f5f5;
+  text-decoration: none;
+  font-weight: lighter;
+ }
+
+ .footer h3{
+  color: #f5f5f5;
+  text-decoration: none;
+  font-weight: 500;
+ }
+
+ .footer button {
+   background: transparent;
+   border: 1px solid #00a2c5;
+   color: #00a2c5;
+   border-radius: 3px;
+   cursor: pointer;
+   font-weight: 500;
+ }  
+
+ .footer-location {
+   padding-top: 10px;
+ }
+
+
+ .copyright {
+   color: #f5f5f5;
+   margin-top: -3rem;
+ }
+
+ .fa-brands {
+   border: 1px solid #f5f5f5;
+   color: #f5f5f5;
+   border-radius: 100%;
+   padding: 5px;
+   margin-right: 10px;
+ }
+
+  /* End  footer area */
+
+  /* media querey */
+
+   /* Tablets and under */
+   @media(max-width: 768px) {
+     
+     .services {
+       display: block;
+    }
+
+    .location p, h6 {
+       color: #000;
+       display: block;
+    }
+
+    .footer h6 {
+        color: #fff;
+    }
+
+   }
+
+   /* Mobiles */
+
+   @media(max-width: 500px) {
+
+     
+
+    .intro {
+      display: block;
+      text-align: center;
+    }
+
+    .content {
+      margin: auto;
+      display: block;
+      width: 100%; 
+      margin-right: 5rem;
+    }
+
+    input, textarea {
+      margin-left: 4rem;
+    }
+
+    .half-width {
+      width: 67%;
+    }
+
+    .interest-heading {
+      display: block;
+    }
+
+    .interest-area {
+      margin-left: -3rem;
+    }
+
+    .interest img {
+      padding: 0 0 0 5rem;
+    }
+
+    .services {
+      text-align: left;
+    }
+     
+    .budget-info {
+      display: block;
+    }
+
+    .budget-info button {
+      width: 100%;
+    }
+
+    .location-area {
+      margin-left: 5rem;
+    }
+
+    .footer-location {
+      display: block;
+    }
+
+    .copyright {
+      display: inline;
+      margin-top: 2rem;
+    }
+
+    .fonts {
+      display: inline;
+      margin: 2rem 2rem;
+    }
+
+   }
+   
+
+  /*End media querey */
