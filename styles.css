@@ -147,7 +147,7 @@ html, body {
 
 
   
-   .interest-image img:hover {
+   .interest-image:hover {
     border: 5px solid #00a2c5;
     border-radius: 0;
   } 
@@ -348,8 +348,12 @@ html, body {
       padding-left: 5rem;
     }
 
-    input, textarea, .interest {
+    input, textarea, .interest,  {
       margin-left: 5rem;
+    }
+
+    .location {
+      padding-left: 5rem;
     }
 
     .half-width {
