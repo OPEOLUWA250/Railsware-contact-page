@@ -1,10 +1,16 @@
-*, *::before, *::after {
-  box-sizing: inherit;
+html, body {
+  margin: 0;
+  padding: 0;
 }
+
+ *, *::before, *::after {
+  box-sizing: inherit;
+} 
 
 .navbar {
   padding: 15px 20px;
   box-shadow: 0px 10px 20px rgba(57,56,61,0.205);
+  width: 100%;
 }
 
  .navbar-brand{
@@ -90,6 +96,7 @@
     font-size: 50px;
     font-weight: 600;
     padding:  20px 0;
+    margin-top: 5rem;
   }
 
   input {
@@ -128,8 +135,17 @@
   }
 
   .interest-image {
-    padding: 20px 0;
+    border: dotted 2px #777;
+    padding: 1rem;
+    display: block;
   }
+
+  .interest-image input {
+    margin-right: 20rem;
+    color: #00a2c5;
+  }
+
+
   
    .interest-image img:hover {
     border: 5px solid #00a2c5;
@@ -137,9 +153,9 @@
   } 
 
   .interest-image img {
-    border: dotted 1px #777;
     border-radius: 5px;
     padding: 20px;
+
   }
 
   /* End intrest area */
@@ -149,7 +165,7 @@
   .services, .budget {
      margin: 3rem 12rem; 
     display: block;
-    /* text-align: left; */
+    
   }
 
   .budget-info {
@@ -309,9 +325,11 @@
 
    /* Mobiles */
 
-   @media(max-width: 500px) {
+   @media(max-width: 450px) {
 
-     
+    body {
+      width: fit-content;
+    }
 
     .intro {
       display: block;
@@ -325,48 +343,63 @@
       margin-right: 5rem;
     }
 
-    input, textarea {
-      margin-left: 4rem;
+    .content h1 {
+      text-align: left;
+      padding-left: 5rem;
+    }
+
+    input, textarea, .interest {
+      margin-left: 5rem;
     }
 
     .half-width {
       width: 67%;
     }
 
+    .interest {
+      text-align: center;
+      margin-left: 12rem;
+      margin-top: 4rem;
+
+    }
+
     .interest-heading {
       display: block;
     }
 
-    .interest-area {
-      margin-left: -3rem;
-    }
-
     .interest img {
-      padding: 0 0 0 5rem;
+      padding: 0 0 -8rem 5rem;
+      
     }
 
-    .services {
-      text-align: left;
+    .services, .budget {
+      text-align: center;
+      margin: auto;
+      display: block;
+      margin-bottom: 4rem;
     }
      
     .budget-info {
       display: block;
+      text-align: center;
+    }
+
+    .budget-info p {
+      margin: auto;
+      display: block;
     }
 
     .budget-info button {
-      width: 100%;
+      width: 80%;
     }
 
-    .location-area {
-      margin-left: 5rem;
-    }
-
-    .footer-location {
+    .footer {
+      margin: auto;
       display: block;
     }
 
     .copyright {
-      display: inline;
+      display: block;
       margin-top: 2rem;
     }
 
