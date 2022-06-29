@@ -21,6 +21,12 @@ html, body {
    color: #000;
  }
 
+ .navbar button {
+   margin-right: 7rem;
+   background-color: #00a2c5;
+   border: 1px solid #00a2c5;
+ }
+
  .top {
    color: #00a2c5;
  }
@@ -40,7 +46,7 @@ html, body {
  }
 
  .dropbtn {
-    color: #000;
+    color: #fff;
     padding: 16px;
     font-size: 20px;
     border: none;
@@ -144,8 +150,6 @@ html, body {
     margin-right: 20rem;
     color: #00a2c5;
   }
-
-
   
    .interest-image:hover {
     border: 5px solid #00a2c5;
@@ -199,6 +203,7 @@ html, body {
 
   .location {
     background-color: #f6f6f6;
+    width: 100%;
   }
 
   .location  p  {
@@ -221,7 +226,7 @@ html, body {
   }
 
   .location-text {
-    margin: 0 7rem;
+    margin: 0 5rem;
   }
   /* End location area */
 
@@ -231,6 +236,7 @@ html, body {
     background-color: #000;
     padding: 3rem 0;
     font-size: 15px;
+    width: 110%;
   }
 
  .footer-area {
@@ -340,7 +346,7 @@ html, body {
       margin: auto;
       display: block;
       width: 100%; 
-      margin-right: 5rem;
+      margin-left: 6rem;
     }
 
     .content h1 {
@@ -348,7 +354,7 @@ html, body {
       padding-left: 5rem;
     }
 
-    input, textarea, .interest,  {
+    , textarea, .interest,  {
       margin-left: 5rem;
     }
 
@@ -412,7 +418,22 @@ html, body {
       margin: 2rem 2rem;
     }
 
+    .footer h3 {
+      font-size: 30px;
+    }
+
+    .footer p, a {
+      font-size: 25px;
+      color: #f5f5f5;
+    }
+
    }
    
 
   /*End media querey */
+
+
+  
+ 
+
+
